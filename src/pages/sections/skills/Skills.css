@@ -1,0 +1,32 @@
+.skills {
+    padding: 1rem 2rem;
+  }
+  
+  .skillBar {
+    margin-bottom: 1rem;
+  }
+  
+  .skillName {
+    font-weight: bold;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progressLevel {
+    height: 100%;
+    transition: width 2s ease-in-out;
+  }
+
+  .skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }

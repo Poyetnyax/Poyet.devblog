@@ -1,0 +1,38 @@
+.navbar {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 0.5rem;
+}
+.logo h3 {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #fff;
+    padding: 0 0.5rem;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: inherit;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #036bb6;
+    cursor: pointer;
+}

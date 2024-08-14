@@ -1,0 +1,15 @@
+.intro {
+    width: 100%;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../../assets/code.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro__text {
+    padding: 2rem 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

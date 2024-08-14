@@ -1,0 +1,12 @@
+.home {
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    max-width: 1280px;
+    margin:auto;
+}
+
+.resume__cards{
+    display: flex;
+    gap:1rem;
+}
