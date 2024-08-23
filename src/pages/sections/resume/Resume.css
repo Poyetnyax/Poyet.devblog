@@ -1,0 +1,26 @@
+.resume__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.resume__container h1{
+    font-size: 2rem;
+}
+.resume__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.myresume{
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .resume__cards {
+        grid-template-columns: 1fr;
+    }
+}

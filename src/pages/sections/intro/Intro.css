@@ -1,0 +1,39 @@
+.intro {
+    max-width: 1280px;;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../../assets/code.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.5rem 2rem 2rem;
+}
+
+.intro__text {
+    padding: 2rem 0.5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.heroimg {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img {
+    width: 16rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-wrap: wrap;
+        gap: 0.5rem
+    }
+}
