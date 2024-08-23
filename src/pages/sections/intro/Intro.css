@@ -27,7 +27,7 @@
 }
 
 .img {
-    width: 16rem;
+    width: 23rem;
     border-radius: 1rem;
 }
 
@@ -35,5 +35,8 @@
     .intro {
         flex-wrap: wrap;
         gap: 0.5rem
+    }
+    .img {
+        width: 18rem;
     }
 }

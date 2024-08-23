@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import './ResButton.css'
-import pdf from '../../../../public/docs/POYET-NYAHUKU.pdf'
+import pdf from '../../../../public/docs/POYET-NYAHUKU-res.pdf'
 
 
 const ResButton = ({children, ...props}) => {
