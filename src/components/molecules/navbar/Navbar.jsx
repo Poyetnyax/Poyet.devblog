@@ -1,7 +1,7 @@
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
-
+import logo from '../../../assets/picon.png';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <>
         <div className='navbar'>
             <div className='logo'>
-                <h3>Poyet.dev</h3>
+                <img src={logo} alt="" className="imglogo" />
             </div>
             <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className='bar'></div>
