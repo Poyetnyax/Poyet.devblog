@@ -1,5 +1,5 @@
 import './Intro.css';
-import heroimg from '../../../assets/heroimg.jpeg';
+import heroimg from '../../../assets/me2.jpeg';
 
 const Intro = () => {
     return (
