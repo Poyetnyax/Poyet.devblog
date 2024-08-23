@@ -1,14 +1,21 @@
 .intro {
     max-width: 1280px;;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 4rem;
-    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 6.5rem 2rem 2rem;
     background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../../assets/code.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 6.5rem 2rem 2rem;
+}
+
+.intro_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .intro__text {
@@ -31,8 +38,27 @@
     border-radius: 1rem;
 }
 
+.intro_socials {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 0; 
+}
+
+.intro_socials a {
+    color: #fcfcfc
+}
+
 @media (max-width: 768px) {
     .intro {
+        gap: 1rem;
+    }
+    .intro_container{
         flex-wrap: wrap;
         gap: 0.5rem
     }
