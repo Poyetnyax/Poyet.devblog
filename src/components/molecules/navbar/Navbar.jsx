@@ -1,14 +1,26 @@
-import './Navbar.css'
+import './Navbar.css';
 import { Link } from 'react-scroll';
+import { useState } from 'react';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <>
         <div className='navbar'>
             <div className='logo'>
                 <h3>Poyet.dev</h3>
             </div>
-            <div className='links'>
+            <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                <div className='bar'></div>
+                <div className='bar'></div>
+                <div className='bar'></div>
+            </div>
+            <div className={`links ${isOpen ? 'active' : ''}`}>
                 <Link 
                     activeClass="active"
                     spy={true}
@@ -16,8 +28,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     to="about"
-                    activeClassName="selected"
-                    
+                    onClick={toggleMenu}
                 >
                     About
                 </Link>
@@ -28,7 +39,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     to="resume"
-                    activeClassName="selected"
+                    onClick={toggleMenu}
                 >
                     Resume
                 </Link>
@@ -39,7 +50,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     to="skills"
-                    activeClassName="selected"
+                    onClick={toggleMenu}
                 >
                     Skills
                 </Link>
@@ -50,7 +61,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     to="contact"
-                    activeClassName="selected"
+                    onClick={toggleMenu}
                 >
                     Contact
                 </Link>

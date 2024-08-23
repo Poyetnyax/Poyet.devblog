@@ -1,5 +1,7 @@
 import './Resume.css';
 import Card from '../../../components/molecules/card/Card';
+import { FaFile } from "react-icons/fa"
+import ResButton from '../../../components/molecules/resbutton/ResButton';
 
 const Resume = () => {
     return (
@@ -15,6 +17,10 @@ const Resume = () => {
                     <Card period="July 2023 - Present" field="Full Stack Developer" place="Robiki AI" description="Working as a full stack developer in the development team of Robiki AI, using technologies such as Svelte, Typescript, NodeJS, PostgreSQL, Postman, and Docker." />
                 </div>
             </div>
+            <div className="myresume">
+                <ResButton>Resume <FaFile /></ResButton>
+            </div>
+
         </section>
     )
 }

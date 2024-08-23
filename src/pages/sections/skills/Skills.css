@@ -1,7 +1,11 @@
-.skills {
-    padding: 1rem 2rem;
+  .skills {
+    padding: 1rem 2rem 3rem;
+    background-color: #0c0b0b;
   }
-  
+  .skills_text h1 {
+    font-size: 2rem;
+  }
+
   .skillBar {
     margin-bottom: 1rem;
   }

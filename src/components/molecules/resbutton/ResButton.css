@@ -1,0 +1,19 @@
+.resbutton{
+    display: flex;
+    color: #eaeff2;
+    background-color: #036bb6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.resbutton:hover{
+    background-color: #036bb6;
+    cursor: pointer;
+}
