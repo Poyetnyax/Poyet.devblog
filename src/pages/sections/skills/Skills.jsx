@@ -31,7 +31,7 @@ const Skills = () => {
                 <SkillBar skill="Svelte" level={70} color="#ff3e00" />
                 <SkillBar skill="React" level={50} color="#61dbfb" />
                 <SkillBar skill="TypeScript" level={40} color="#007acc" />
-                <SkillBar skill="Git&GitHub" level={75} color="#377381" />
+                <SkillBar skill="Git" level={75} color="#377381" />
                 <SkillBar skill="Docker" level={60} color="#003f88" />
                 <SkillBar skill="SQL" level={55} color="#ae4300" />
             </div>

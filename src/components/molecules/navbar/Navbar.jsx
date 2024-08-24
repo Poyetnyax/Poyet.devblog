@@ -2,6 +2,9 @@ import './Navbar.css';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 import logo from '../../../assets/picon.png';
+import { FaFile } from "react-icons/fa"
+import ResButton from '../../../components/molecules/resbutton/ResButton';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -65,6 +68,7 @@ const Navbar = () => {
                 >
                     Contact
                 </Link>
+                <ResButton>Resume <FaFile /></ResButton>
             </div>
         </div>
         </>
