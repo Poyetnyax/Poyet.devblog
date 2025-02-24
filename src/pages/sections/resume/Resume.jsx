@@ -14,7 +14,7 @@ const Resume = () => {
                 </div>
                 <div className='experience__cards'>
                     <h2 className='experience__title'>Experience</h2>
-                    <Card period="July 2023 - Present" field="Full Stack Developer" place="Robiki AI" description="Working as a full stack developer in the development team of Robiki AI, using technologies such as Svelte, Typescript, NodeJS, PostgreSQL, Postman, and Docker." />
+                    <Card period="July 2023 - Sep 2024" field="Full Stack Developer" place="Robiki AI" description="Working as a full stack developer in the development team of Robiki AI, using technologies such as Svelte, Typescript, NodeJS, PostgreSQL, Postman, and Docker." />
                 </div>
             </div>
             <div className="myresume">
