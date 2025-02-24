@@ -7,17 +7,24 @@
 
 .contact_container h1{
     font-size: 2rem;
+    margin-top: 0;
 }
-
+.contact_container h3{
+    margin: 0.8rem 0;
+}
 .contact_info{
     width: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     color: #ffffff;
     font-size: 1.5rem;
     justify-content: center;
     text-align: left;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
 }
 
 .contact_info a {

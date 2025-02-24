@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="contact_container">
-        <h1>Contact Me</h1>
+        <h3>Any Questions?</h3>
+        <h1>Contact Me 🙂</h1>
         <div className="contact_info">
           <a href="mailto:poyetnyahuku3@gmail.com" className="contact-link">
             <FaEnvelope /> poyetnyahuku3@gmail.com
