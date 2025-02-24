@@ -10,11 +10,19 @@ const Resume = () => {
             <div className="resume__cards">
                 <div className='education__cards'>
                     <h2 className='education__title'>Education</h2>
-                    <Card period="2023 - Present" field="Bachelor of Science in Computer Science" place="University of Economic and Innovation" description="Majoring in computer science, 2nd year." />
+                    <Card period="March 2023 - March 2026" field="Bachelor of Science in Computer Science" place="University of Economic and Innovation" description="Majoring in computer science, 2nd year." />
                 </div>
                 <div className='experience__cards'>
                     <h2 className='experience__title'>Experience</h2>
-                    <Card period="July 2023 - Sep 2024" field="Full Stack Developer" place="Robiki AI" description="Working as a full stack developer in the development team of Robiki AI, using technologies such as Svelte, Typescript, NodeJS, PostgreSQL, Postman, and Docker." />
+                    <Card period="July 2023 - September 2024" field="Full Stack Developer" place="Robiki AI" description="Working as a full stack developer in the development team of Robiki AI, using technologies such as Svelte, Typescript, NodeJS, PostgreSQL, Postman, and Docker." />
+                </div>
+                <div className='experience__cards'>
+                    <h2 className='experience__title'>Experience</h2>
+                    <Card period="March 2020 - April 2022" field="Customer Support & IT Assistant" place="ECONET Telecommunications" description="Provided remote assistance to clients, ensuring timely resolution of software, network, and hardware issues. Utilized digital tools to manage customer interactions and track inquiries, handling 100+ customers monthly. Assisted in troubleshooting and system maintenance, reducing downtime"/>
+                </div>
+                <div className='experience__cards'>
+                    <h2 className='experience__title'>Experience</h2>
+                    <Card period="November 2019 - February 2020" field="Business Analyst" place="OK Zimbabwe" description="Gathered and documented business equirements, improving project clarity. Worked with development teams to design and validate solutions, leading to successful implementations. Conducted data analysis and reporting providing insights that increased efficiency"/>
                 </div>
             </div>
             <div className="myresume">
