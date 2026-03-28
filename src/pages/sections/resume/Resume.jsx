@@ -18,11 +18,7 @@ const Resume = () => {
                 </div>
                 <div className='experience__cards'>
                     <h2 className='experience__title'>Experience</h2>
-                    <Card period="March 2020 - April 2022" field="Customer Support & IT Assistant" place="ECONET Telecommunications" description="Provided remote assistance to clients, ensuring timely resolution of software, network, and hardware issues. Utilized digital tools to manage customer interactions and track inquiries, handling 100+ customers monthly. Assisted in troubleshooting and system maintenance, reducing downtime"/>
-                </div>
-                <div className='experience__cards'>
-                    <h2 className='experience__title'>Experience</h2>
-                    <Card period="November 2019 - February 2020" field="Business Analyst" place="OK Zimbabwe" description="Gathered and documented business equirements, improving project clarity. Worked with development teams to design and validate solutions, leading to successful implementations. Conducted data analysis and reporting providing insights that increased efficiency"/>
+                    <Card period="September 2025 - Present" field="Software QA Tester" place="Testronic" description="Working as part of the quality assurance team, I focus on ensuring software reliability, functionality, and basic security standards through structured manual testing, defect reporting, and close collaboration with development teams."/>
                 </div>
             </div>
             <div className="myresume">
