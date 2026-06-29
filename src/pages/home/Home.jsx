@@ -5,6 +5,7 @@ import Intro from '../sections/intro/Intro';
 import About from '../sections/about/About';
 import Resume from '../sections/resume/Resume';
 import Skills from '../sections/skills/Skills';
+import Projects from '../sections/projects/Projects';
 import Contact from '../sections/contact/Contact';
 import Footer from '../sections/footer/Footer';
 
@@ -22,8 +23,10 @@ const Home = () => {
         <Resume />
         <Separator />
         <Skills />
-        <Separator/>
-        <Contact/>
+        <Separator />
+        <Projects />
+        <Separator />
+        <Contact />
         <Separator/>
         <Footer/>
     </div>

@@ -63,6 +63,17 @@ const Navbar = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    to="projects"
+                    onClick={toggleMenu}
+                >
+                    Projects
+                </Link>
+                <Link 
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
                     to="contact"
                     onClick={toggleMenu}
                 >

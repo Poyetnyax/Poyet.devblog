@@ -19,7 +19,7 @@ export const SkillBar = ({skill="", level=0, color=""}) => (
 
 const Skills = () => {
     return (
-        <div className='skills'>
+        <section id="skills" className='skills'>
             <div className="skills_text">
                 <h1>My Skills</h1>
             </div>
@@ -31,11 +31,12 @@ const Skills = () => {
                 <SkillBar skill="Svelte" level={70} color="#ff3e00" />
                 <SkillBar skill="React" level={50} color="#61dbfb" />
                 <SkillBar skill="TypeScript" level={40} color="#007acc" />
+                <SkillBar skill="Python" level={40} color="#4b8bbe" />
                 <SkillBar skill="Git" level={75} color="#377381" />
                 <SkillBar skill="Docker" level={60} color="#003f88" />
                 <SkillBar skill="SQL" level={55} color="#ae4300" />
             </div>
-        </div>
+        </section>
     );
 };
 
