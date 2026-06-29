@@ -10,7 +10,7 @@ const Resume = () => {
             <div className="resume__cards">
                 <div className='education__cards'>
                     <h2 className='education__title'>Education</h2>
-                    <Card period="March 2023 - March 2026" field="Bachelor of Science in Computer Science" place="University of Economic and Innovation" description="Majoring in computer science, 2nd year." />
+                    <Card period="March 2023 - June 2026" field="Bachelor of Science in Computer Science" place="University of Economic and Innovation" description="Majoring in computer science, 2nd year." />
                 </div>
                 <div className='experience__cards'>
                     <h2 className='experience__title'>Experience</h2>
